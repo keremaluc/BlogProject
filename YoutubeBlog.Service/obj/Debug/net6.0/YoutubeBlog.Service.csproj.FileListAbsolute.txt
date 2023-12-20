@@ -1,0 +1,12 @@
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Service.deps.json
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Service.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Service.pdb
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.csproj.AssemblyReference.cache
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.AssemblyInfoInputs.cache
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.AssemblyInfo.cs
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.csproj.CoreCompileInputs.cache
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\refint\YoutubeBlog.Service.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.pdb
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\ref\YoutubeBlog.Service.dll
