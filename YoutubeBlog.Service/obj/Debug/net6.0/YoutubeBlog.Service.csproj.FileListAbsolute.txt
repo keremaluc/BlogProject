@@ -10,3 +10,11 @@ C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\You
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\refint\YoutubeBlog.Service.dll
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.pdb
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\ref\YoutubeBlog.Service.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Core.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Data.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Entity.dll
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Data.pdb
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Entity.pdb
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\bin\Debug\net6.0\YoutubeBlog.Core.pdb
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.sourcelink.json
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.csproj.CopyComplete

@@ -17,3 +17,4 @@ C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Data\obj\Debug\net6.0\Youtub
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Data\obj\Debug\net6.0\ref\YoutubeBlog.Data.dll
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Data\bin\Debug\net6.0\YoutubeBlog.Data.runtimeconfig.json
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Data\obj\Debug\net6.0\YoutubeBlog.Data.genruntimeconfig.cache
+C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Data\obj\Debug\net6.0\YoutubeBlog.Data.sourcelink.json

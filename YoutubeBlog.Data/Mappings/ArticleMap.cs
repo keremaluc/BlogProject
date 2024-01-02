@@ -18,7 +18,8 @@ namespace YoutubeBlog.Data.Mappings
                 ImageId = Guid.Parse("AED4065C-FFAB-4B86-8837-3858281A850F"),
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.Now,
-                IsDeleted = false
+                IsDeleted = false,
+                UserId = Guid.Parse("E5102E42-2326-40D7-AE9D-F6593CE92A48")
             },
             new Article
             {
@@ -30,7 +31,8 @@ namespace YoutubeBlog.Data.Mappings
                 ImageId = Guid.Parse("60DA40E5-6AF5-4B7A-9435-A8E4F66BBE31"),
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.Now,
-                IsDeleted = false
+                IsDeleted = false,
+                UserId = Guid.Parse("45D910AF-E957-4880-88A7-49B1FCED6D24")
             }
             );
         }
