@@ -53,21 +53,21 @@ namespace YoutubeBlog.Data.Migrations
                         new
                         {
                             Id = new Guid("354043d3-5934-4136-b117-99f57b40f0f7"),
-                            ConcurrencyStamp = "b0c11039-81b1-4912-a89e-e97650cb2246",
+                            ConcurrencyStamp = "32ddfaef-b108-4ddb-9b27-3548c54cef7d",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("9e62cbd1-68e7-4a37-bdb6-844c6c8090e3"),
-                            ConcurrencyStamp = "238ea788-ceca-44fb-b05b-1fd03c7a161e",
+                            ConcurrencyStamp = "c414dd2f-78d1-4452-ac27-fd198df7e929",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("5b680afb-97fa-4adb-a1c2-7fbd84616302"),
-                            ConcurrencyStamp = "f8ede542-5acf-44bf-83dd-52b20f699a7a",
+                            ConcurrencyStamp = "fb9e0b3b-a0dd-4e91-b4a7-2350582101fe",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -180,7 +180,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("e5102e42-2326-40d7-ae9d-f6593ce92a48"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0c35abdc-a8eb-4e72-83b6-064d54978696",
+                            ConcurrencyStamp = "ff5d930a-7b6c-410c-9dba-ea937ac8e1c7",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Kerem",
@@ -189,10 +189,10 @@ namespace YoutubeBlog.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAWE6npnzaaA5Kc9SOExp9uio/B96z+ymefiwyZP8HYl/aNJLsx2d5rZSYGuJ9P07A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMIeVJjTuddZO90CNk3Qm6JXXruL7juAF7XawEU4gpP3UD/zG7U4NZIbGRvHgJC1AA==",
                             PhoneNumber = "9",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "6056c95d-985e-42e0-8d14-47b1895da38c",
+                            SecurityStamp = "591ab1f0-8f4b-47f6-a1a6-5fb86d19e133",
                             TwoFactorEnabled = false,
                             UserName = "superadmin@gmail.com"
                         },
@@ -200,7 +200,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("45d910af-e957-4880-88a7-49b1fced6d24"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "291d40e0-36ef-42a8-8940-974fa798141a",
+                            ConcurrencyStamp = "f3c81e3e-f0df-49d5-91d6-eb00ee93ea23",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
@@ -209,10 +209,10 @@ namespace YoutubeBlog.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEii9akVG6Ct3e0XFzE31EkPJ3vtdjgFYYoKDkxUUoxCc2mHRcrVCg1tsq9OkGar5A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFByKQZ6Gtqa+1bHgaVxecvxcrQHLieNQMR0uJuvhhoTp/xlgXWSU1HtCTjHINpXeQ==",
                             PhoneNumber = "905553455855",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3bd79277-1681-47ac-9b27-76981ce82cbf",
+                            SecurityStamp = "950fc757-33fc-46e1-a2a8-10be1b1128d7",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         });
@@ -372,11 +372,11 @@ namespace YoutubeBlog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("456373fc-2bb5-485f-b7a3-4a4c47f1b243"),
+                            Id = new Guid("16490ab8-a4ec-4930-99e6-2f9ca17dba45"),
                             CategoryId = new Guid("a2235fb5-9aa0-4103-bb4b-5bc2bb74457f"),
                             Content = "Asp.Net Core Lorem ipsum dolor sit amet consectetur adipiscing, elit ridiculus parturient nam consequat. Faucibus eros nisi in varius mollis vehicula tempor pellentesque, felis augue id ligula porta ante odio conubia suscipit, velit volutpat at taciti tellus dignissim semper. Eros quam mus sapien eget fringilla augue ullamcorper elementum sociosqu egestas non lectus, aenean mi hac magna suscipit est porta integer iaculis nascetur euismod. Faucibus interdum posuere condimentum tristique tempus in dictumst dis, dapibus eget semper dui commodo quis velit, ante mi fermentum fusce sapien luctus viverra. Nisl penatibus magna montes scelerisque duis arcu hendrerit dictumst rutrum fermentum, sollicitudin accumsan senectus aliquet non facilisis diam nullam eu nec, dignissim libero quis taciti nulla vestibulum platea semper justo. Lobortis libero nascetur augue facilisis tortor odio urna a volutpat porta, eleifend ullamcorper semper sociosqu cras dictum primis velit luctus ultricies ut, per turpis nostra litora habitant penatibus lacus conubia potenti. Netus eu placerat fermentum condimentum arcu pellentesque dictum blandit euismod vitae, dignissim felis eros inceptos ligula metus tempus justo nec himenaeos, molestie etiam posuere interdum nascetur gravida eleifend malesuada cursus. Dis pretium tincidunt maecenas magnis curabitur fames dui quis risus mus, sociosqu facilisis ante consequat odio faucibus penatibus diam pellentesque, luctus vel porttitor aliquet ridiculus himenaeos aenean gravida fringilla. Auctor orci fames maecenas taciti eros senectus magna semper quis ultricies, aliquam neque nascetur dui condimentum gravida montes elementum eu interdum tempor, enim pharetra nisl iaculis per quam vestibulum dictumst turpis. Varius libero nec class dis donec ad tristique ut faucibus, ultrices habitasse placerat quis platea sodales enim nullam dignissim convallis, urna dapibus taciti tellus integer praesent hac nunc. Montes pulvinar ante venenatis pharetra est porta, condimentum etiam vulputate tortor convallis tincidunt, turpis interdum mauris nostra pretium. Neque vel phasellus habitasse tortor nulla montes cursus tempor, pretium ad ac primis facilisis sollicitudin class tellus lobortis, netus accumsan ultricies potenti mollis fermentum integer.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 12, 28, 17, 8, 13, 922, DateTimeKind.Local).AddTicks(9984),
+                            CreatedDate = new DateTime(2024, 1, 17, 12, 7, 54, 485, DateTimeKind.Local).AddTicks(5233),
                             ImageId = new Guid("aed4065c-ffab-4b86-8837-3858281a850f"),
                             IsDeleted = false,
                             Title = "Asp.Net Core Deneme Makalesi 1",
@@ -385,11 +385,11 @@ namespace YoutubeBlog.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1b20250e-949e-4835-bb6e-280b277468f3"),
+                            Id = new Guid("51163d17-35c4-450b-810d-cc6640604b9c"),
                             CategoryId = new Guid("6b32f844-74a3-424b-9431-ecf65bee09e4"),
                             Content = "Visual Studio Lorem ipsum dolor sit amet consectetur adipiscing, elit ridiculus parturient nam consequat. Faucibus eros nisi in varius mollis vehicula tempor pellentesque, felis augue id ligula porta ante odio conubia suscipit, velit volutpat at taciti tellus dignissim semper. Eros quam mus sapien eget fringilla augue ullamcorper elementum sociosqu egestas non lectus, aenean mi hac magna suscipit est porta integer iaculis nascetur euismod. Faucibus interdum posuere condimentum tristique tempus in dictumst dis, dapibus eget semper dui commodo quis velit, ante mi fermentum fusce sapien luctus viverra. Nisl penatibus magna montes scelerisque duis arcu hendrerit dictumst rutrum fermentum, sollicitudin accumsan senectus aliquet non facilisis diam nullam eu nec, dignissim libero quis taciti nulla vestibulum platea semper justo. Lobortis libero nascetur augue facilisis tortor odio urna a volutpat porta, eleifend ullamcorper semper sociosqu cras dictum primis velit luctus ultricies ut, per turpis nostra litora habitant penatibus lacus conubia potenti. Netus eu placerat fermentum condimentum arcu pellentesque dictum blandit euismod vitae, dignissim felis eros inceptos ligula metus tempus justo nec himenaeos, molestie etiam posuere interdum nascetur gravida eleifend malesuada cursus. Dis pretium tincidunt maecenas magnis curabitur fames dui quis risus mus, sociosqu facilisis ante consequat odio faucibus penatibus diam pellentesque, luctus vel porttitor aliquet ridiculus himenaeos aenean gravida fringilla. Auctor orci fames maecenas taciti eros senectus magna semper quis ultricies, aliquam neque nascetur dui condimentum gravida montes elementum eu interdum tempor, enim pharetra nisl iaculis per quam vestibulum dictumst turpis. Varius libero nec class dis donec ad tristique ut faucibus, ultrices habitasse placerat quis platea sodales enim nullam dignissim convallis, urna dapibus taciti tellus integer praesent hac nunc. Montes pulvinar ante venenatis pharetra est porta, condimentum etiam vulputate tortor convallis tincidunt, turpis interdum mauris nostra pretium. Neque vel phasellus habitasse tortor nulla montes cursus tempor, pretium ad ac primis facilisis sollicitudin class tellus lobortis, netus accumsan ultricies potenti mollis fermentum integer.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 12, 28, 17, 8, 13, 922, DateTimeKind.Local).AddTicks(9993),
+                            CreatedDate = new DateTime(2024, 1, 17, 12, 7, 54, 485, DateTimeKind.Local).AddTicks(5248),
                             ImageId = new Guid("60da40e5-6af5-4b7a-9435-a8e4f66bbe31"),
                             IsDeleted = false,
                             Title = "Visual Studio Core Deneme Makalesi 1",
@@ -439,7 +439,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("a2235fb5-9aa0-4103-bb4b-5bc2bb74457f"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 12, 28, 17, 8, 13, 923, DateTimeKind.Local).AddTicks(169),
+                            CreatedDate = new DateTime(2024, 1, 17, 12, 7, 54, 485, DateTimeKind.Local).AddTicks(5359),
                             IsDeleted = false,
                             Name = "ASP.NET CORE"
                         },
@@ -447,7 +447,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("6b32f844-74a3-424b-9431-ecf65bee09e4"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 12, 28, 17, 8, 13, 923, DateTimeKind.Local).AddTicks(192),
+                            CreatedDate = new DateTime(2024, 1, 17, 12, 7, 54, 485, DateTimeKind.Local).AddTicks(5361),
                             IsDeleted = false,
                             Name = "Visual Studio 2022"
                         });
@@ -498,7 +498,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("aed4065c-ffab-4b86-8837-3858281a850f"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 12, 28, 17, 8, 13, 923, DateTimeKind.Local).AddTicks(291),
+                            CreatedDate = new DateTime(2024, 1, 17, 12, 7, 54, 485, DateTimeKind.Local).AddTicks(5418),
                             FileName = "images/testimage",
                             FileType = ".jpg",
                             IsDeleted = false
@@ -507,7 +507,7 @@ namespace YoutubeBlog.Data.Migrations
                         {
                             Id = new Guid("60da40e5-6af5-4b7a-9435-a8e4f66bbe31"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2023, 12, 28, 17, 8, 13, 923, DateTimeKind.Local).AddTicks(294),
+                            CreatedDate = new DateTime(2024, 1, 17, 12, 7, 54, 485, DateTimeKind.Local).AddTicks(5420),
                             FileName = "images/vstest",
                             FileType = ".png",
                             IsDeleted = false

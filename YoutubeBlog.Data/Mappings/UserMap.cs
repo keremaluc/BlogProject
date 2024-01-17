@@ -53,7 +53,7 @@ namespace YoutubeBlog.Data.Mappings
                 NormalizedUserName = "SUPERADMIN@GMAIL.COM",
                 Email = "superadmin@gmail.com",
                 NormalizedEmail = "SUPERADMIN@GMAIL.COM",
-                PhoneNumber = "9",
+                PhoneNumber = "905555555555",
                 FirstName = "Kerem",
                 LastName = "Aluç",
                 PhoneNumberConfirmed = true,

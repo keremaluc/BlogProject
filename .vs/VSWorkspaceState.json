@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\YoutubeBlog.Web",
+    "\\YoutubeBlog.Web\\Areas",
+    "\\YoutubeBlog.Web\\Areas\\Admin",
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views",
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article",
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Shared"
+  ],
+  "SelectedNode": "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

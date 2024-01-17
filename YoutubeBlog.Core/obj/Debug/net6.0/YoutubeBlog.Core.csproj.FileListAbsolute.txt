@@ -10,3 +10,16 @@ C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\Youtub
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\refint\YoutubeBlog.Core.dll
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.pdb
 C:\Users\dagli\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\ref\YoutubeBlog.Core.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\bin\Debug\net6.0\YoutubeBlog.Core.deps.json
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\bin\Debug\net6.0\YoutubeBlog.Core.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\bin\Debug\net6.0\YoutubeBlog.Core.pdb
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.csproj.AssemblyReference.cache
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.AssemblyInfoInputs.cache
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.AssemblyInfo.cs
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.sourcelink.json
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\refint\YoutubeBlog.Core.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\YoutubeBlog.Core.pdb
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Core\obj\Debug\net6.0\ref\YoutubeBlog.Core.dll
