@@ -6,8 +6,10 @@
     "\\YoutubeBlog.Web\\Areas\\Admin",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views",
     "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article",
-    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Shared"
+    "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Shared",
+    "\\YoutubeBlog.Web\\wwwroot",
+    "\\YoutubeBlog.Web\\wwwroot\\js"
   ],
-  "SelectedNode": "\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Article\\Index.cshtml",
+  "SelectedNode": "\\YoutubeBlog.sln",
   "PreviewInSolutionExplorer": false
 }
