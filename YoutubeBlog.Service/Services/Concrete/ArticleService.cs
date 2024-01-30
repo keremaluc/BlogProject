@@ -41,5 +41,22 @@ namespace YoutubeBlog.Service.Services.Concrete
                 
         }
 
+        public async Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId)
+        {
+            var article = await unitOfWork.GetRepostitory<Article>().GetAsync(x => !x.IsDeleted  && x.Id == articleId , x => x.Category);
+            var map = mapper.Map<ArticleDto>(article);
+
+            return map;
+
+        }
+        public async Task UpdateArticleAsync(ArticleUpdateDto articleUpdateDto)
+        {
+            var article = await unitOfWork.GetRepostitory<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category);
+
+            mapper.Map<ArticleUpdateDto>(article);
+
+            await unitOfWork.GetRepostitory<Article>().UpdateAsync(article);
+            await unitOfWork.SaveAsync();
+        }
     }
 }
