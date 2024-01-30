@@ -204,3 +204,6 @@ C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\refint\
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.pdb
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.genruntimeconfig.cache
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\ref\YoutubeBlog.Web.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
