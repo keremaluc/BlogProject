@@ -20,13 +20,8 @@ namespace YoutubeBlog.Service.Services.Concrete
         public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
         {
             var userId = Guid.Parse("E5102E42-2326-40D7-AE9D-F6593CE92A48");
-            var article = new Article
-            {
-                Title = articleAddDto.Title,
-                Content = articleAddDto.Content,
-                CategoryId = articleAddDto.CategoryId,
-                UserId = userId
-            };
+            var imageId = Guid.Parse("AED4065C-FFAB-4B86-8837-3858281A850F");
+            var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, articleAddDto.CategoryId, imageId);
 
             await unitOfWork.GetRepostitory<Article>().AddAsync(article);
             await unitOfWork.SaveAsync();
