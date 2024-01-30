@@ -53,7 +53,19 @@ namespace YoutubeBlog.Service.Services.Concrete
         {
             var article = await unitOfWork.GetRepostitory<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category);
 
-            mapper.Map<ArticleUpdateDto>(article);
+            article.Title = articleUpdateDto.Title;
+            article.Content = articleUpdateDto.Content;
+            article.CategoryId = articleUpdateDto.CategoryId;
+
+            await unitOfWork.GetRepostitory<Article>().UpdateAsync(article);
+            await unitOfWork.SaveAsync();
+        }
+        public async Task SafeDeleteArticleAsync(Guid articleId)
+        {
+            var article = await unitOfWork.GetRepostitory<Article>().GetByGuidAsync(articleId);
+
+            article.IsDeleted = true;
+            article.DeletedDate = DateTime.Now;
 
             await unitOfWork.GetRepostitory<Article>().UpdateAsync(article);
             await unitOfWork.SaveAsync();
