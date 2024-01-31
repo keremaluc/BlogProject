@@ -44,7 +44,7 @@ namespace YoutubeBlog.Service.Services.Concrete
             return map;
 
         }
-        public async Task UpdateArticleAsync(ArticleUpdateDto articleUpdateDto)
+        public async Task<string> UpdateArticleAsync(ArticleUpdateDto articleUpdateDto)
         {
             var article = await unitOfWork.GetRepostitory<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category);
 
@@ -54,8 +54,10 @@ namespace YoutubeBlog.Service.Services.Concrete
 
             await unitOfWork.GetRepostitory<Article>().UpdateAsync(article);
             await unitOfWork.SaveAsync();
+
+            return article.Title;
         }
-        public async Task SafeDeleteArticleAsync(Guid articleId)
+        public async Task<string> SafeDeleteArticleAsync(Guid articleId)
         {
             var article = await unitOfWork.GetRepostitory<Article>().GetByGuidAsync(articleId);
 
@@ -64,6 +66,8 @@ namespace YoutubeBlog.Service.Services.Concrete
 
             await unitOfWork.GetRepostitory<Article>().UpdateAsync(article);
             await unitOfWork.SaveAsync();
+
+            return article.Title;
         }
     }
 }
