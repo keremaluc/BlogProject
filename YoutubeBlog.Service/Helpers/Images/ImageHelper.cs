@@ -78,17 +78,18 @@ namespace YoutubeBlog.Service.Helpers.Images
         public async Task<ImageUploadedDto> Upload(string name, IFormFile imageFile, ImageType imageType, string folderName = null)
         {
             folderName ??= imageType == ImageType.User ? userImagesFolder : articleImagesFolder;
+
             if (!Directory.Exists($"{wwwroot}/{imgFolder}/{folderName}"))
                 Directory.CreateDirectory($"{wwwroot}/{imgFolder}/{folderName}");
 
             string oldFileName = Path.GetFileNameWithoutExtension(imageFile.FileName);
-            string fileExtendsion = Path.GetExtension(imageFile.FileName);
+            string fileExtension = Path.GetExtension(imageFile.FileName);
 
             name = ReplaceInvalidChars(name);
 
             DateTime dateTime = DateTime.Now;
 
-            string newFileName = $"{name}_{dateTime.Millisecond}{fileExtendsion}";
+            string newFileName = $"{name}_{dateTime.Millisecond}{fileExtension}";
 
             var path = Path.Combine($"{wwwroot}/{imgFolder}/{folderName}", newFileName);
 
@@ -111,7 +112,6 @@ namespace YoutubeBlog.Service.Helpers.Images
             var fileToDelete = Path.Combine($"{wwwroot}/{imgFolder}/{imageName}");
             if (File.Exists(fileToDelete))
                 File.Delete(fileToDelete);
-
         }
     }
 }

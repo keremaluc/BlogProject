@@ -54,9 +54,10 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             else
             {
                 result.AddToModelState(this.ModelState);
-                var categories = await categoryService.GetAllCategoriesNonDeleted();
-                return View(new ArticleAddDto { Categories = categories });
             }
+
+            var categories = await categoryService.GetAllCategoriesNonDeleted();
+            return View(new ArticleAddDto { Categories = categories });
 
 
         }
