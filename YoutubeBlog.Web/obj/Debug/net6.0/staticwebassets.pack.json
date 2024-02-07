@@ -25,8 +25,16 @@
       "PackagePath": "staticwebassets\\images\\article-images\\baslibegenmedim2_331.png"
     },
     {
+      "Id": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\merhababenkerem_41.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\merhababenkerem_41.png"
+    },
+    {
       "Id": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\articleIndex.js",
       "PackagePath": "staticwebassets\\js\\articleIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\categoryAdd.js",
+      "PackagePath": "staticwebassets\\js\\categoryAdd.js"
     },
     {
       "Id": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\categoryIndex.js",

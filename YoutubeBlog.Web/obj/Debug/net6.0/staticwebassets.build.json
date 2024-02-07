@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gFMQAhw8tqTZ0nBnhZL+GmmmLo1aVJVyLv79WeYmWu4=",
+  "Hash": "MswWqMFLdfpUQasDPCfgh7wSljzfcZZs+n2fyl++X4Q=",
   "Source": "YoutubeBlog.Web",
   "BasePath": "_content/YoutubeBlog.Web",
   "Mode": "Default",
@@ -188,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\images\\article-images\\baslibegenmedim2_331.png"
     },
     {
+      "Identity": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\images\\article-images\\merhababenkerem_41.png",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "images/article-images/merhababenkerem_41.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\article-images\\merhababenkerem_41.png"
+    },
+    {
       "Identity": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\articleIndex.js",
       "SourceId": "YoutubeBlog.Web",
       "SourceType": "Discovered",
@@ -205,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\articleIndex.js"
+    },
+    {
+      "Identity": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\categoryAdd.js",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "js/categoryAdd.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoryAdd.js"
     },
     {
       "Identity": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\categoryIndex.js",
