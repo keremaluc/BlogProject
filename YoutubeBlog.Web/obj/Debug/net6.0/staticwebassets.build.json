@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MswWqMFLdfpUQasDPCfgh7wSljzfcZZs+n2fyl++X4Q=",
+  "Hash": "z+6MAIJhBSSur4t3IJMbu3LurXt1VLHGdGuIlr5HAZA=",
   "Source": "YoutubeBlog.Web",
   "BasePath": "_content/YoutubeBlog.Web",
   "Mode": "Default",
@@ -281,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\js\\userIndex.js",
+      "SourceId": "YoutubeBlog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\",
+      "BasePath": "_content/YoutubeBlog.Web",
+      "RelativePath": "js/userIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userIndex.js"
     },
     {
       "Identity": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

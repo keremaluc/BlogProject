@@ -9,6 +9,8 @@ namespace YoutubeBlog.Entity.Entities
 {
     public class AppUser : IdentityUser<Guid>
     {
+        public IList<string> Role;
+
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Guid ImageId { get; set; }
