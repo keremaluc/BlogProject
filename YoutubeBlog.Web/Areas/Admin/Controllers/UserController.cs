@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
 using YoutubeBlog.Entity.DTOs.Users;
 using YoutubeBlog.Entity.Entities;
+using YoutubeBlog.Service.Extensions;
 using YoutubeBlog.Web.ResultMessages;
 
 namespace YoutubeBlog.Web.Areas.Admin.Controllers
@@ -14,13 +16,15 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
     {
         private readonly UserManager<AppUser> userManager;
         private readonly RoleManager<AppRole> roleManager;
+        private readonly IValidator<AppUser> validator;
         private readonly IToastNotification toast;
         private readonly IMapper mapper;
 
-        public UserController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IToastNotification toast, IMapper mapper)
+        public UserController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager,IValidator<AppUser> validator, IToastNotification toast, IMapper mapper)
         {
             this.userManager = userManager;
             this.roleManager = roleManager;
+            this.validator = validator;
             this.toast = toast;
             this.mapper = mapper;
         }
@@ -49,6 +53,7 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Add(UserAddDto userAddDto)
         {
             var map = mapper.Map<AppUser>(userAddDto);
+            var validation = await validator.ValidateAsync(map);
             var roles = await roleManager.Roles.ToListAsync();
             if (ModelState.IsValid)
             {
@@ -63,8 +68,8 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
                 }
                 else
                 {
-                    foreach (var errors in result.Errors)
-                        ModelState.AddModelError("", errors.Description);
+                    result.AddToIdentityModelState(this.ModelState);
+                    validation.AddToModelState(this.ModelState);
                     return View(new UserAddDto { Roles = roles });
                 }
             }
@@ -91,23 +96,32 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
                 var roles = await roleManager.Roles.ToListAsync();
                 if (ModelState.IsValid)
                 {
-                    mapper.Map(userUpdateDto, user);
-                    user.UserName = userUpdateDto.Email;
-                    user.SecurityStamp = Guid.NewGuid().ToString();
-                    var result = await userManager.UpdateAsync(user);
-                    if (result.Succeeded)
-                    {
-                        await userManager.RemoveFromRoleAsync(user, userRole);
-                        var findRole = await roleManager.FindByIdAsync(userUpdateDto.RoleId.ToString());
-                        await userManager.AddToRoleAsync(user, findRole.Name);
+                    var map = mapper.Map(userUpdateDto, user);
+                    var validation = await validator.ValidateAsync(map);
 
-                        toast.AddSuccessToastMessage(Messages.User.Update(userUpdateDto.Email), new ToastrOptions { Title = "Başarılı !" });
-                        return RedirectToAction("Index", "User", new { Area = "Admin" });
+                    if (validation.IsValid)
+                    {
+                        user.UserName = userUpdateDto.Email;
+                        user.SecurityStamp = Guid.NewGuid().ToString();
+                        var result = await userManager.UpdateAsync(user);
+                        if (result.Succeeded)
+                        {
+                            await userManager.RemoveFromRoleAsync(user, userRole);
+                            var findRole = await roleManager.FindByIdAsync(userUpdateDto.RoleId.ToString());
+                            await userManager.AddToRoleAsync(user, findRole.Name);
+                            toast.AddSuccessToastMessage(Messages.User.Update(userUpdateDto.Email), new ToastrOptions { Title = "Başarılı !" });
+                            return RedirectToAction("Index", "User", new { Area = "Admin" });
+                        }
+                        else
+                        {
+                            result.AddToIdentityModelState(this.ModelState);
+
+                            return View(new UserUpdateDto { Roles = roles });
+                        }
                     }
                     else
                     {
-                        foreach (var errors in result.Errors)
-                            ModelState.AddModelError("", errors.Description);
+                        validation.AddToModelState(this.ModelState);
                         return View(new UserUpdateDto { Roles = roles });
                     }
                 }
@@ -127,8 +141,7 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
             }
             else
             {
-                foreach (var errors in result.Errors)
-                    ModelState.AddModelError("", errors.Description);
+                result.AddToIdentityModelState(this.ModelState);
             }
             return NotFound();
 
