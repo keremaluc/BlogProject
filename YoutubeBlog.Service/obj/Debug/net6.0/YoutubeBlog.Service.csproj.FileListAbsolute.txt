@@ -33,8 +33,8 @@ C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\You
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.AssemblyInfo.cs
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.csproj.CoreCompileInputs.cache
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.sourcelink.json
-C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.csproj.CopyComplete
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\refint\YoutubeBlog.Service.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeBlog.Service.pdb
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\ref\YoutubeBlog.Service.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Service\obj\Debug\net6.0\YoutubeB.081BE2A7.Up2Date

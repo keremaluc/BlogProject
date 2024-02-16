@@ -198,7 +198,6 @@ C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\staticw
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\scopedcss\bundle\YoutubeBlog.Web.styles.css
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\scopedcss\projectbundle\YoutubeBlog.Web.bundle.scp.css
-C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.csproj.CopyComplete
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\refint\YoutubeBlog.Web.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.pdb
@@ -521,3 +520,4 @@ C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\tr\Micr
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeB.CD03CE70.Up2Date

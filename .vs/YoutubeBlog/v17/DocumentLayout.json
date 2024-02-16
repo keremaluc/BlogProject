@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.web\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|solutionrelative:youtubeblog.web\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.entity\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|solutionrelative:youtubeblog.entity\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|solutionrelative:youtubeblog.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF3D06-5F46-4D63-A442-D2591682189B}|YoutubeBlog.Data\\YoutubeBlog.Data.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.data\\mappings\\imagemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF3D06-5F46-4D63-A442-D2591682189B}|YoutubeBlog.Data\\YoutubeBlog.Data.csproj|solutionrelative:youtubeblog.data\\mappings\\imagemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.web\\areas\\admin\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|solutionrelative:youtubeblog.web\\areas\\admin\\views\\user\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.web\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|solutionrelative:youtubeblog.web\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.web\\areas\\admin\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA70FE0-888A-4D50-BDB8-3DDABCBFC853}|YoutubeBlog.Web\\YoutubeBlog.Web.csproj|solutionrelative:youtubeblog.web\\areas\\admin\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.entity\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|solutionrelative:youtubeblog.entity\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.entity\\dtos\\users\\useradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31856D6-7256-47DB-8ACE-ABD893F74EAB}|YoutubeBlog.Entity\\YoutubeBlog.Entity.csproj|solutionrelative:youtubeblog.entity\\dtos\\users\\useradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89250D9-26A1-48A6-9DAF-D2CE081FFC29}|YoutubeBlog.Service\\YoutubeBlog.Service.csproj|c:\\users\\kerem\\source\\repos\\youtubeblog\\youtubeblog.service\\automapper\\users\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89250D9-26A1-48A6-9DAF-D2CE081FFC29}|YoutubeBlog.Service\\YoutubeBlog.Service.csproj|solutionrelative:youtubeblog.service\\automapper\\users\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 679,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Entity\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\Entities\\AppUser.cs",
+              "RelativeToolTip": "YoutubeBlog.Entity\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T16:56:46.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\Class1.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Entity\\Class1.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\Class1.cs",
+              "RelativeToolTip": "YoutubeBlog.Entity\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T16:56:41.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageMap.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Data\\Mappings\\ImageMap.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Data\\Mappings\\ImageMap.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Data\\Mappings\\ImageMap.cs",
+              "RelativeToolTip": "YoutubeBlog.Data\\Mappings\\ImageMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T16:56:03.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Web\\Areas\\Admin\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "YoutubeBlog.Web\\Areas\\Admin\\Controllers\\ArticleController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:57:25.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "YoutubeBlog.Web\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "YoutubeBlog.Web\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-16T15:50:39.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Service\\AutoMapper\\Users\\UserProfile.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Service\\AutoMapper\\Users\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Service\\AutoMapper\\Users\\UserProfile.cs",
+              "RelativeToolTip": "YoutubeBlog.Service\\AutoMapper\\Users\\UserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:49:45.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "RelativeDocumentMoniker": "YoutubeBlog.Web\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "RelativeToolTip": "YoutubeBlog.Web\\Areas\\Admin\\Views\\User\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-16T15:49:16.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\DTOs\\Users\\UserDto.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Entity\\DTOs\\Users\\UserDto.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\DTOs\\Users\\UserDto.cs",
+              "RelativeToolTip": "YoutubeBlog.Entity\\DTOs\\Users\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:46:38.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\DTOs\\Users\\UserAddDto.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Entity\\DTOs\\Users\\UserAddDto.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Entity\\DTOs\\Users\\UserAddDto.cs",
+              "RelativeToolTip": "YoutubeBlog.Entity\\DTOs\\Users\\UserAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:46:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "YoutubeBlog.Web\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kerem\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\Areas\\Admin\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "YoutubeBlog.Web\\Areas\\Admin\\Controllers\\UserController.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAAAowDcAAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:38:59.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

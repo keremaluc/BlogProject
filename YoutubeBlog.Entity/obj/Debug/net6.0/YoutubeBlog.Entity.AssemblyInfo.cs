@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YoutubeBlog.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6c52d50064955d7451c12091e8bbbafc122d1ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc942b333171fd195f1e648bd06e514cda939a30")]
 [assembly: System.Reflection.AssemblyProductAttribute("YoutubeBlog.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YoutubeBlog.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,8 +25,8 @@ C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\Yout
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.AssemblyInfo.cs
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.csproj.CoreCompileInputs.cache
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.sourcelink.json
-C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.csproj.CopyComplete
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\refint\YoutubeBlog.Entity.dll
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.pdb
 C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\ref\YoutubeBlog.Entity.dll
+C:\Users\kerem\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeB.74C92919.Up2Date
