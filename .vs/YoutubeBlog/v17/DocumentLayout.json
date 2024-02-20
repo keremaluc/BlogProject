@@ -67,8 +67,7 @@
               "RelativeToolTip": "YoutubeBlog.Service\\Extensions\\ServiceLayerExtansions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:46:59.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T18:46:59.244Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "YoutubeBlog.Web\\Areas\\Admin\\Controllers\\ArticleController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwDcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:11:06.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T18:11:06.691Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "YoutubeBlog.Service\\FluentValidation\\ArticleValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:07:11.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T18:07:11.215Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "YoutubeBlog.Service\\FluentValidation\\UserValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:06:12.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T18:06:12.229Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "YoutubeBlog.Web\\Areas\\Admin\\Controllers\\UserController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAowFAAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:05:20.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T18:05:20.537Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "YoutubeBlog.Web\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T18:01:07.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T18:01:07.386Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "YoutubeBlog.Service\\Describers\\CustomIdentityErrorDescriber.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T17:58:06.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T17:58:06.871Z"
             }
           ]
         }
