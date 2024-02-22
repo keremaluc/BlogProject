@@ -102,5 +102,28 @@ namespace YoutubeBlog.Service.Services.Concrete
 
             return article.Title;
         }
+
+        public async Task<List<ArticleDto>> GetAllArticlesWithCategoryDeletedAsync()
+        {
+            var articles = await unitOfWork.GetRepostitory<Article>().GetAllAsync(x => x.IsDeleted, x => x.Category);
+            var map = mapper.Map<List<ArticleDto>>(articles);
+
+            return map;
+        }
+
+        public async Task<string> UndoDeleteArticleAsync(Guid articleId)
+        {
+            var userEmail = _user.GetLoggedInEmail();
+            var article = await unitOfWork.GetRepostitory<Article>().GetByGuidAsync(articleId);
+
+            article.IsDeleted = false;
+            article.DeletedDate = null;
+            article.DeletedBy = null;
+
+            await unitOfWork.GetRepostitory<Article>().UpdateAsync(article);
+            await unitOfWork.SaveAsync();
+
+            return article.Title;
+        }
     }
 }
