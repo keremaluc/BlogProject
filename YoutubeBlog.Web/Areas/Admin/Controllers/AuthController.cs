@@ -38,14 +38,14 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
                     }
                     else
                     {
-                        ModelState.AddModelError("", "E-posta adresiniz veya şiifreniz yanlıştır.");
+                        ModelState.AddModelError("", "E-posta adresiniz veya şifreniz yanlıştır.");
                         return View();
                     }
 
                 }
                 else
                 {
-                    ModelState.AddModelError("", "E-posta adresiniz veya şiifreniz yanlıştır.");
+                    ModelState.AddModelError("", "E-posta adresiniz veya şifreniz yanlıştır.");
                     return View();
                 }
             }
@@ -61,6 +61,13 @@ namespace YoutubeBlog.Web.Areas.Admin.Controllers
         {
             await signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home", new { Area = "" });
+        }
+
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> AccessDenied()
+        {
+            return View();
         }
     }
 }
