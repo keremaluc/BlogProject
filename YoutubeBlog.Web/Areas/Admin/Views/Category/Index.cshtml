@@ -1,4 +1,5 @@
-﻿ @model List<CategoryDto>
+﻿@using YoutubeBlog.Web.Const
+ @model List<CategoryDto>
 
 <div class="container-xxl flex-grow-1 container-p-y">
     <h4 class="fw-bold py-3 mb-4">
@@ -9,10 +10,17 @@
     <div class="card">
         <div class="table-responsive text-nowrap m-5">
 
-            <div class="add-button-container">
-                <a class="btn btn-success mb-4" asp-area="Admin" asp-controller="Category" asp-action="Add">
+            @{
+                if (!User.IsInRole($"{RoleConsts.User}"))
+                {
+                                    <a class="btn btn-success mb-4" asp-area="Admin" asp-controller="Category" asp-action="Add">
                     Kategori Ekle <i class="bx bx-plus"></i>
                 </a>
+                }
+            }
+
+            <div class="add-button-container">
+
             </div>
 
             <table class="table table-bordered" id="categoriesTable" width="100%" cellspacing="0">
@@ -22,7 +30,13 @@
                         <th>Oluşturulma Tarihi</th>
                         <th>Oluşturan</th>
                         <th>Durum</th>
-                        <th>İşlemler</th>
+                        @{
+                            if (!User.IsInRole($"{RoleConsts.User}"))
+                            {
+                                <th>İşlemler</th>
+                            }
+                        }
+                        
                     </tr>
                 </thead
 @*                 <tfoot>
@@ -43,10 +57,17 @@
                             <th>@category.CreatedDate.ToShortDateString()</th>
                             <th>@category.CreatedBy</th>
                             <th>@(category.IsDeleted ? "Aktif Değil" : "Aktif")</th>
-                            <td>
-                                <a class="btn btn-primary btn-sm" data-id="@category.Id" asp-area="Admin" asp-controller="Category" asp-action="Update" asp-route-categoryId="@category.Id"><i class="bx bxs-edit"></i></a>
-                                <a class="btn btn-danger btn-sm" data-id="@category.Id" asp-area="Admin" asp-controller="Category" asp-action="Delete" asp-route-categoryId="@category.Id"><i class="bx bx-minus-circle"></i></a>
-                            </td>
+
+                            @{
+                                if (!User.IsInRole($"{RoleConsts.User}"))
+                                {
+                                <td>
+                                    <a class="btn btn-primary btn-sm" data-id="@category.Id" asp-area="Admin" asp-controller="Category" asp-action="Update" asp-route-categoryId="@category.Id"><i class="bx bxs-edit"></i></a>
+                                    <a class="btn btn-danger btn-sm" data-id="@category.Id" asp-area="Admin" asp-controller="Category" asp-action="Delete" asp-route-categoryId="@category.Id"><i class="bx bx-minus-circle"></i></a>
+                                </td>
+                                }
+                            }
+                            
                         </tr>
                     }
                 </tbody>
